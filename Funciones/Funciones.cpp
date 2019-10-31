@@ -62,3 +62,21 @@ void menu()
 		}
 	} while (bandera != true);
 }
+void pausa()
+{
+	cout << endl << "Pulsa cualquier tecla para continuar...";
+	getwchar();
+	getwchar();
+}
+int suma()
+{
+	int a, b, suma;
+	cout << "Primer valor: " << endl;
+	cin >> a;
+	cout << "Segundo valor: " << endl;
+	cin >> b;
+	suma = a + b;
+	cout << "La suma es " << suma << endl;
+	pausa();
+	return 0;
+}
