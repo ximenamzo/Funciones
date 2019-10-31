@@ -80,3 +80,39 @@ int suma()
 	pausa();
 	return 0;
 }
+int resta()
+{
+	int a, b, resta;
+	cout << "Primer valor: " << endl;
+	cin >> a;
+	cout << "Segundo valor: " << endl;
+	cin >> b;
+	resta = a - b;
+	cout << "La resta es " << resta << endl;
+	pausa();
+	return 0;
+}
+int multi()
+{
+	int a, b, multi;
+	cout << "Primer valor: " << endl;
+	cin >> a;
+	cout << "Segundo valor: " << endl;
+	cin >> b;
+	multi = a * b;
+	cout << "La multiplicacion es " << multi << endl;
+	pausa();
+	return 0;
+}
+int division()
+{
+	int a, b, division;
+	cout << "Primer valor: " << endl;
+	cin >> a;
+	cout << "Segundo valor: " << endl;
+	cin >> b;
+	division = a / b;
+	cout << "La division es " << division << endl;
+	pausa();
+	return 0;
+}
